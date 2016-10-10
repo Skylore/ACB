@@ -10,13 +10,15 @@ public class $10 {
         System.out.println("Enter duration");
         int duration = scanner.nextInt();
         int priceByHour = 250;
+        int finPrice = duration * priceByHour;
+        double discount = finPrice * 0.2;
 
         if (date > 0 && date < 8) {
-            if (date > 0 || date < 6)
-                System.out.println("Your price is " + (duration * priceByHour) + " dollars");
+            if (date > 0 && date < 6)
+                System.out.println("Your price is " + finPrice + " dollars");
             else
                 System.out.println("Your price is " +
-                        ((duration * priceByHour) - ((duration * priceByHour) * 0.2)) + " dollars");
+                        (finPrice - discount) + " dollars");
         } else
             System.out.println("Please enter right date");
     }
