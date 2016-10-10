@@ -9,18 +9,21 @@ public class $4_2 {
         int b = scanner.nextInt();
         System.out.println("Enter third num");
         int c = scanner.nextInt();
+        boolean a1 = a < b;
+        boolean a2 = a < c;
+        boolean a3 = b < c;
 
-        if(a < b && a < c && b < c)
+        if(a1 & a2 & a3)
             System.out.println("The smallest is " + a + " The biggest is " + c);
-        else if(a < b && a < c && b > c)
+        else if(a1 & a2 & !a3)
             System.out.println("The smallest is " + a + " The biggest is " + b);
-        else if(b < a && b < c && a < c)
+        else if(!a1 & a3 & a2)
             System.out.println("The smallest is " +  b + " The biggest is " + c);
-        else if(b < a && b < c && a > c)
+        else if(!a1 & a3 & !a2)
             System.out.println("The smallest is " + b + " The biggest is " + a);
-        else if(c < a && c < b && a < b)
+        else if(!a2 & !a3 & a1)
             System.out.println("The smallest is " + c + " The biggest is " + b);
-        else if(c < a && c < b && a < b)
+        else if(!a2 & !a3 & !a1)
             System.out.println("The smallest is " + c + " The biggest is " + a);
     }
 }
