@@ -11,10 +11,13 @@ public class $5 {
         int b = sc.nextInt();
         System.out.println("Enter third num");
         int c = sc.nextInt();
-
-        if (a == b && b == c)
+        boolean a1 = a == b;
+        boolean a2 = b == c;
+        boolean a3 = a == c;
+        
+        if (a1 && a2)
             System.out.println("All numbers are equal");
-        else if (a == b || b == c || a == c)
+        else if (a1 || a2 || a3)
             System.out.println("Couple of numbers are equal");
         else
             System.out.println("Numbers aren't equal");
