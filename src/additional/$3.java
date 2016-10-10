@@ -1,5 +1,3 @@
-package additional;
-
 import java.util.Scanner;
 
 public class $3 {
@@ -9,10 +7,12 @@ public class $3 {
         int a1 = a / 100;
         int a2 = a / 10 % 10;
         int a3 = a % 10 % 10;
-
-        if (a1 == a2 && a2 == a3)
+        boolean x = a1 == a2;
+        boolean x1 = a2 == a3;
+        
+        if (x && x1)
             System.out.println("All digits equal");
-        else if (a1 == a2 || a2 == a3)
+        else if (x || x1)
             System.out.println("Couple of digits are equal");
         else
             System.out.println("Digits aren't equal");
