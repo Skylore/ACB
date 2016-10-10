@@ -7,14 +7,16 @@ public class $4_7 {
         int a = scanner.nextInt();
         System.out.println("Enter second num");
         int b = scanner.nextInt();
-
-        if (a % b == 0)
+        int a1 = a % b;
+        int a2 = b % a;
+        
+        if (a1 == 0)
             System.out.println("true, " + (a / b));
-        else if (b % a == 0)
+        else if (a2 == 0)
             System.out.println("" + (b / a));
         else if (a % b != 0)
-            System.out.println("false, " + (a % b));
-        else if (b % a != 0)
-            System.out.println("false, " + (b % a));
+            System.out.println("false, " + a1);
+        else if (a2 != 0)
+            System.out.println("false, " + a2);
     }
 }
