@@ -6,7 +6,7 @@ public class $4_4 {
         System.out.println("Enter your num");
         double a = scanner.nextDouble();
 
-        if (a >= 0 && a <= 1) System.out.println("0 < " + a  + " < 1");
+        if (a >= 0 && a <= 1) System.out.println(a >= 0 && a <= 1);
         else System.out.println(false);
     }
 }
