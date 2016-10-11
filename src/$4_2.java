@@ -13,17 +13,17 @@ public class $4_2 {
         boolean a2 = a < c;
         boolean a3 = b < c;
 
-        if(a1 & a2 & a3)
+        if(a1 && a2 && a3)
             System.out.println("The smallest is " + a + " The biggest is " + c);
-        else if(a1 & a2 & !a3)
+        else if(a1 && a2 && !a3)
             System.out.println("The smallest is " + a + " The biggest is " + b);
-        else if(!a1 & a3 & a2)
+        else if(!a1 && a3 && a2)
             System.out.println("The smallest is " +  b + " The biggest is " + c);
-        else if(!a1 & a3 & !a2)
+        else if(!a1 && a3 && !a2)
             System.out.println("The smallest is " + b + " The biggest is " + a);
-        else if(!a2 & !a3 & a1)
+        else if(!a2 && !a3 && a1)
             System.out.println("The smallest is " + c + " The biggest is " + b);
-        else if(!a2 & !a3 & !a1)
+        else if(!a2 && !a3 && !a1)
             System.out.println("The smallest is " + c + " The biggest is " + a);
     }
 }
