@@ -5,8 +5,7 @@ public class $4_4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your num");
         double a = scanner.nextDouble();
-
-        if (a >= 0 && a <= 1) System.out.println(a >= 0 && a <= 1);
-        else System.out.println(false);
+        
+        System.out.println(a >= 0 && a <= 1);
     }
 }
