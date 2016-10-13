@@ -1,5 +1,5 @@
 package week1_2;
-
+  //count length of array
 import java.util.Scanner;
 
 public class $4 {

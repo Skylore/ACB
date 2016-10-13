@@ -1,5 +1,5 @@
 package week1_2.add;
-
+  //count 'a' in line
 import java.util.Scanner;
 
 public class $2_3 {

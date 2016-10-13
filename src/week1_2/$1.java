@@ -1,5 +1,5 @@
 package week1_2;
-
+  //find min and max values of array and sout them
 public class $1 {
     public static void main(String[] args) {
         int mas[] = {234,523,5235,53,-23,35,-3252,3256246,543252,233,4545,-234456};

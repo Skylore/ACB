@@ -1,5 +1,5 @@
 package week1_2.add;
-
+  // change all 'a' in line to '@'
 import java.util.Scanner;
 
 public class $2_5 {

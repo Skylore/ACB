@@ -1,5 +1,5 @@
 package week1_2.add;
-
+  // cheque, is number paired
 import java.util.Scanner;
 
 public class $2_2 {

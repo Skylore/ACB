@@ -1,5 +1,5 @@
 package week1_2;
-
+  //swap min and max values
 public class $2 {
     public static void main(String[] args) {
         int mas[] = {234,523,5235,53,-23,35,-3252,

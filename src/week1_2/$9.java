@@ -1,5 +1,6 @@
 package week1_2;
-
+  //fill array with random numbers in range of 25 - 75,
+  //define an array with more paired numbers
 import java.util.Scanner;
 
 public class $9 {

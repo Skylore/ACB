@@ -1,5 +1,5 @@
 package week1_2;
-
+  //sout half elements of array that average is bigger
 public class $7 {
     public static void main(String[] args) {
         int mas[] = {23,4235,6,74,3,3,4,45,7,8,234,3,356,63,1};

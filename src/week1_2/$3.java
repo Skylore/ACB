@@ -1,5 +1,5 @@
 package week1_2;
-
+  //copy array
 public class $3 {
     public static void main(String[] args) {
         int mas[] = {23,45,-232,456,745};

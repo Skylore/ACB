@@ -1,5 +1,5 @@
 package week1_2;
-
+  //there are two arrays with equal length, sout sum of these arrays
 public class $8 {
     public static void main(String[] args) {
         int mas[] = {234,523,523,425,67,5487,8583,4,63,32};

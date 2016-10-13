@@ -1,7 +1,8 @@
 package week1_2;
 
 import java.util.Scanner;
-
+  //fill an array with random numbers,
+  // on paired indexes -> paired number on unpaired -> unpaired numbers
 public class $5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
