@@ -1,7 +1,7 @@
 package week1_2.add;
 
 import java.util.Scanner;
-
+  //shift array to given quantity cells
 public class $2_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
