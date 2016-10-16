@@ -1,12 +1,14 @@
 package week1_2.add;
 
 import java.util.Scanner;
-
+  // Invert random array
 public class $2_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Input size of array ");
         int size = scanner.nextInt();
+
         int mas[] = returnArray(size);
 
         System.out.println("Default array: ");
