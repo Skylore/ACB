@@ -1,7 +1,7 @@
 package week1_2.add;
 
 import java.util.Scanner;
-  // Invert random array
+  // Invert array
 public class $2_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -27,10 +27,10 @@ public class $2_1 {
     
     public static int[] invertArray(int[] mas) {
 
-        for (int a = 0; a < mas.length; a++) {
-            int c = mas[a];
-            mas[a] = mas[mas.length - a - 1];
-            mas[mas.length - a - 1] = c;
+        for (int i = 0; i < mas.length / 2; i++) {
+            int c = mas[i];
+            mas[i] = mas[mas.length - i - 1];
+            mas[mas.length - i - 1] = c;
         }
         return mas;
     }
