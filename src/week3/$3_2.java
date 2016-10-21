@@ -1,15 +1,10 @@
 package week3;
 
-import java.util.Scanner;
-
 public class $3_2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Input height of matrix ");
-        int height = scanner.nextInt();
-        System.out.println("Input width of matrix ");
-        int width = scanner.nextInt();
+        int height = Intro.height();
+        int width = Intro.width();
 
         System.out.println(matrix(height,width));
 

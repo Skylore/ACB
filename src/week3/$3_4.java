@@ -1,16 +1,10 @@
 package week3;
 
-import java.util.Scanner;
-
 public class $3_4 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Input height of matrix ");
-        int height = scanner.nextInt();
-
-        System.out.println("Input width of matrix ");
-        int width = scanner.nextInt();
+        int height = Intro.height();
+        int width = Intro.width();
 
         int matrix[][] = GenerateMatrix.matrix(height, width);
         int mas[] = matrix(height, width, matrix);
