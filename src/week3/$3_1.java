@@ -11,15 +11,11 @@ public class $3_1 {
         System.out.println("Input width of matrix ");
         int width = scanner.nextInt();
 
-        int matrix[][] = fillMatrix(height, width);
+        int matrix[][] = GenerateMatrix.matrix(height, width);
 
         System.out.println("Default matrix: ");
-        for (int i = 0; i < height; i++) {
-            for (int j = 0; j < width; j++) {
-                System.out.print(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+
+        PrintMatrix.printMat(matrix);
 
         System.out.println("\nChanged matrix: ");
         for (int i = 0; i < height; i++) {
@@ -30,17 +26,5 @@ public class $3_1 {
             System.out.println();
         }
 
-    }
-
-    public static int[][] fillMatrix(int height, int width) {
-        int mat[][] = new int[height][width];
-
-        for (int i = 0; i < height; i++) {
-            for (int j = 0; j < width; j++) {
-                mat[i][j] = ((int) (Math.random() * 100));
-            }
-        }
-
-        return mat;
     }
 }
