@@ -1,35 +1,8 @@
-package week3.warships;
+package warShips;
 
-import java.util.Scanner;
+public class Hints {
 
-public class Steps {
-
-
-    public static int                     enemyX = ((int) (Math.random() * 10));
-
-    public static int                     enemyY = ((int) (Math.random() * 10));
-
-    public static int[][] step(int[][] mat) {
-         
-
-        System.out.println("Input your shoot: \nx - ");
-        int                               inputX = new Scanner(System.in).nextInt();
-        System.out.println("y - ");
-        int                               inputY = new Scanner(System.in).nextInt();
-        
-        if (inputY <= 0 && inputY > 10 && inputX <= 0 && inputX > 10) {
-            return mat;
-        }
-        
-
-        mat[inputY][inputX] = 1;
-
-        Hints(inputX, inputY);
-
-        return mat;
-    }
-
-    public static void Hints(int inputX, int inputY) {
+    public static void printHints(int inputX, int inputY, int enemyX, int enemyY) {
 
         if (inputX == enemyX && inputY == enemyY) {
             System.out.println("You win");
