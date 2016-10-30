@@ -1,6 +1,6 @@
 package warShips;
 
-public class Hints {
+public class Hints extends Run{
 
     public static void printHints(int inputX, int inputY, int enemyX, int enemyY) {
 
