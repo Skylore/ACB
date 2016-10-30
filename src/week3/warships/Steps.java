@@ -17,7 +17,6 @@ public class Steps {
         System.out.println("y - ");
         int                               inputY = new Scanner(System.in).nextInt();
         
-        
         if (inputY <= 0 && inputY > 10 && inputX <= 0 && inputX > 10) {
             return mat;
         }
@@ -25,7 +24,12 @@ public class Steps {
 
         mat[inputY][inputX] = 1;
 
-        //    Hints, TODO fix this
+        Hints(inputX, inputY);
+
+        return mat;
+    }
+
+    public static void Hints(int inputX, int inputY) {
 
         if (inputX == enemyX && inputY == enemyY) {
             System.out.println("You win");
@@ -54,7 +58,5 @@ public class Steps {
         } else if (inputX == enemyX && inputY > enemyY) {
             System.out.println("you need to shoot upper");
         }
-
-        return mat;
     }
 }
