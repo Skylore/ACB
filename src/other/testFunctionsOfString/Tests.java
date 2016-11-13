@@ -8,10 +8,7 @@ abstract class Tests {
 
         System.out.println("index of t is " + index);
 
-        if (index == 14) {
-            System.out.println(true);
-        }
-        System.out.println();
+        System.out.println(index == 14);
     }
 
     public static void testLastIndexOf(String line) {
@@ -19,11 +16,8 @@ abstract class Tests {
         int index = MethodsOfString.testLastIndexOf(line);
 
         System.out.println("index of last 'c' is:  " + index);
-
-        if (index == 16) {
-            System.out.println(true);
-        }
-        System.out.println();
+        
+        System.out.println(index == 16);
     }
 
     public static void testToCharArray(String line) {
@@ -68,10 +62,7 @@ abstract class Tests {
 
         System.out.println(sub);
 
-        if (sub.equals("String")) {
-            System.out.println(true);
-        }
-        System.out.println();
+        System.out.println(sub.equals("String");
 
     }
 
@@ -82,11 +73,8 @@ abstract class Tests {
         System.out.println("F is replaced to @");
 
         System.out.println(repLine);
-
-        if (repLine.equals("Test@unctionsOfString")) {
-            System.out.println(true);
-        }
-        System.out.println();
+    
+        System.out.println(repLine.equals("Test@unctionsOfString");
     }
 
     public static void testLength(String line) {
@@ -94,12 +82,8 @@ abstract class Tests {
         int length = MethodsOfString.testLength(line);
 
         System.out.println("length is " + length);
-
-        if (length == 21) {
-            System.out.println(true);
-        }
-
-        System.out.println();
+        
+            System.out.println(length == 21);
     }
 
     public static void testToLowerCase(String line) {
